@@ -5,6 +5,7 @@ import Header from "../components/Header/Header";
 import Advantages from "../components/Advantages/Advantages";
 import WhoWeAre from "../components/WhoWeAre/WhoWeAre";
 import Footer from "../components/Footer/Footer";
+import OurSection from "../components/OurSection/OurSection";
 import SuccessfulBusiness from "../components/SuccessfulBusiness/SuccessfulBusiness";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
 			<Advantages />
 			<WhoWeAre />
 			<SuccessfulBusiness />
+			<OurSection />
 			<Footer />
 		</Fragment>
 	);
