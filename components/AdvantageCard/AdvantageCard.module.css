@@ -1,0 +1,61 @@
+.advantageCard {
+	background: var(--white);
+	padding: 30px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 20px 20px 20px rgb(0 0 0 / 3%);
+}
+
+.icon {
+	color: var(--dark);
+	margin-bottom: 14px;
+}
+
+.title {
+	position: relative;
+	color: var(--dark);
+	text-transform: uppercase;
+}
+
+.title::after {
+	bottom: -10px;
+	left: 0;
+	content: "";
+	width: 60px;
+	height: 3px;
+	display: block;
+	position: absolute;
+	background: var(--yellow);
+}
+
+.description {
+	height: 60px;
+	color: var(--grey);
+	margin-top: 10px;
+	margin-bottom: 28px;
+}
+
+.action {
+	font-size: 14px;
+	font-weight: normal;
+	color: var(--yellow);
+	transition: color 0.3s ease-in-out;
+}
+
+.action:hover {
+	color: var(--grey);
+}
+
+@media (max-width: 575.98px) {
+	.advantageCard {
+		margin-bottom: 16px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.advantageCard {
+		margin-bottom: 16px;
+	}
+}

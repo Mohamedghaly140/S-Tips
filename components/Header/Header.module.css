@@ -1,0 +1,54 @@
+.header {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	justify-content: flex-start;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url("../../assets/slide1.jpg");
+}
+
+.title {
+	color: var(--white);
+}
+
+.slogan {
+	color: var(--white);
+	letter-spacing: 1.1px;
+	text-transform: capitalize;
+}
+
+.btn {
+	color: var(--white);
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 14px;
+	padding: 15px 40px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 2px solid var(--white);
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background-color: var(--white);
+	color: var(--darker);
+}
+
+@media (max-width: 575.98px) {
+	.header {
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.header {
+		justify-content: center;
+		text-align: center;
+	}
+}

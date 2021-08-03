@@ -1,0 +1,63 @@
+.CardWhoWeAre {
+	padding: 30px;
+	display: grid;
+	margin-bottom: 20px;
+	grid-column-gap: 30px;
+	border: 1px solid #ebebeb;
+	background-color: var(--white);
+	transition: all 0.3s ease-out 0s;
+	grid-template-columns: repeat(2, auto);
+	box-shadow: 20px 20px 20px rgb(0 0 0 / 3%);
+}
+
+.CardWhoWeAre:last-child {
+	margin-bottom: 0;
+}
+
+.content {
+	width: 100%;
+}
+
+.icon {
+	color: var(--dark);
+	margin-bottom: 14px;
+}
+
+.title {
+	font-size: 18px;
+	color: var(--dark);
+	font-style: normal;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.description {
+	font-size: 14px;
+	font-weight: normal;
+	color: var(--grey);
+	margin-top: 12px;
+	margin-bottom: 28px;
+}
+
+.action {
+	font-size: 14px;
+	font-weight: normal;
+	color: var(--dark);
+	transition: color 0.3s ease-in-out;
+}
+
+.action:hover {
+	color: var(--yellow);
+}
+
+@media (max-width: 575.98px) {
+	.CardWhoWeAre {
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.CardWhoWeAre {
+		margin-top: 20px;
+	}
+}

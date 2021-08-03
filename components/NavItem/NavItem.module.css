@@ -1,0 +1,17 @@
+.navItem {
+	color: var(--white);
+	margin-right: 12px;
+}
+
+.navItem:last-child {
+	margin-right: 0;
+}
+
+.navItem a {
+	color: var(--white);
+	transition: color 0.3s ease-in-out;
+}
+
+.navItem a:hover {
+	color: var(--darker);
+}
