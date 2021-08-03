@@ -1,6 +1,6 @@
 .navItem {
 	color: var(--white);
-	margin-right: 12px;
+	margin-right: 16px;
 }
 
 .navItem:last-child {
