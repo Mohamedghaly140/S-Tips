@@ -11,7 +11,13 @@ const WhoWeAre = () => {
 			<div className="container py-5">
 				<div className="row">
 					<div className="col-md-7">
-						<Image src={laptop} alt="laptop" width={600} height={600} />
+						<Image
+							src={laptop}
+							alt="laptop"
+							width={600}
+							height={600}
+							placeholder="blur"
+						/>
 					</div>
 					<div className="col-md-5">
 						<CardWhoWeAre
