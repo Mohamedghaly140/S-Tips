@@ -1,0 +1,38 @@
+.missionCard {
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	border: 1px solid #ddd;
+	background-color: var(--white);
+}
+
+.image {
+	width: 100% !important;
+}
+
+.missionCard h3 {
+	font-size: 22px;
+	line-height: 25px;
+	color: var(--dark);
+	font-style: normal;
+	margin-bottom: 18px;
+	padding-left: 12px;
+	margin-top: 24px;
+}
+
+.missionCard p {
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	color: var(--grey);
+}
+
+.blackCard {
+	background-color: var(--dark);
+}
+
+.blackCard h3 {
+	color: var(--white);
+}

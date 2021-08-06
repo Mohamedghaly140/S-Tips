@@ -15,21 +15,21 @@ const Advantages = () => {
 					<div className="col-md-4">
 						<AdvantageCard
 							title="Integration"
-							icon={() => <GrIntegration size="2.2em" />}
+							icon={<GrIntegration size="2.2em" />}
 							description="Lack of interoperability and integration among commercial products leads to limited functionality"
 						/>
 					</div>
 					<div className="col-md-4">
 						<AdvantageCard
 							title="High cost"
-							icon={() => <IoMdCash size="2.2em" />}
+							icon={<IoMdCash size="2.2em" />}
 							description="High installation costs and requirements Fully connected houses cost 2K-150K US$"
 						/>
 					</div>
 					<div className="col-md-4">
 						<AdvantageCard
 							title="Poor users experience"
-							icon={() => <AiOutlineUserSwitch size="2.2em" />}
+							icon={<AiOutlineUserSwitch size="2.2em" />}
 							description="Inefficient user experience, long installation time and limited online or offline functionality"
 						/>
 					</div>

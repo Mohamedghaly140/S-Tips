@@ -16,6 +16,7 @@
 .title {
 	position: relative;
 	color: var(--dark);
+	min-height: 50px;
 	text-transform: uppercase;
 }
 
@@ -31,7 +32,7 @@
 }
 
 .description {
-	height: 60px;
+	min-height: 190px;
 	color: var(--grey);
 	margin-top: 10px;
 	margin-bottom: 28px;

@@ -4,7 +4,7 @@ import styles from "./AdvantageCard.module.css";
 const AdvantageCard = ({ icon, title, description }) => {
 	return (
 		<div className={styles.advantageCard}>
-			<div className={styles.icon}>{icon && icon()}</div>
+			<div className={styles.icon}>{icon}</div>
 			<h5 className={styles.title}>{title}</h5>
 			<p className={styles.description}>{description}</p>
 			<Link href="/contact">
