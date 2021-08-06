@@ -57,6 +57,7 @@
 	line-height: 25px;
 	margin-bottom: 18px;
 	font-style: normal;
+	text-transform: capitalize;
 }
 
 .image {
@@ -83,19 +84,22 @@
 }
 
 .readMore {
-	width: auto !important;
-	margin-top: 20px;
 	border: none;
 	outline: none;
 	box-shadow: none;
-	padding: 10px 35px !important;
+	margin-top: 20px;
 	color: var(--grey);
 	display: inline-block;
+	width: auto !important;
+	padding: 10px 35px !important;
+	transition: all 0.3s ease-in-out;
 	background-color: var(--dark) !important;
 }
 
-.list {
-	/* list-style: url("../../assets/arrow_right.png"); */
+.readMore:hover {
+	color: var(--dark) !important;
+	border: 1px solid var(--dark);
+	background-color: var(--white) !important;
 }
 
 .list li {

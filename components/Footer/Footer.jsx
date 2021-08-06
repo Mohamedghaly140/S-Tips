@@ -16,8 +16,8 @@ const Footer = props => {
 			</div>
 			<div className="d-flex align-items-center justify-content-center py-2">
 				<p className="text-white text-center text-capitalize mb-0 py-1">
-					Copyright © {new Date().getFullYear().toString()} S-Tips
-					AllRightsReserved
+					Copyright © {new Date().getFullYear().toString()} S-Tips All Rights
+					Reserved
 				</p>
 			</div>
 		</footer>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FiPlayCircle } from "react-icons/fi";
 import styles from "./BusinessCard.module.css";
 
 const BusinessCard = ({ title, imageUrl, subTitle }) => {
@@ -15,6 +16,9 @@ const BusinessCard = ({ title, imageUrl, subTitle }) => {
 				<h6 className={styles.title}>{title}</h6>
 				<p className={styles.subTitle}>{subTitle}</p>
 			</div>
+			<button className={styles.readMore}>
+				<FiPlayCircle /> read more
+			</button>
 		</div>
 	);
 };

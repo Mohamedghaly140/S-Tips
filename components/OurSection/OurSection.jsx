@@ -35,7 +35,7 @@ const OurSection = () => {
 							</button>
 						</div>
 					</div>
-					{section ? (
+					{section === 1 ? (
 						<Fragment>
 							<div className="col-md-3">
 								<Image

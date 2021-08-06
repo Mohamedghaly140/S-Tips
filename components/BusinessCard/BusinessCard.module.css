@@ -14,6 +14,7 @@
 	min-height: 100%;
 	object-fit: cover;
 	position: absolute;
+	transition: all 0.3s ease-in-out;
 }
 
 .overlay {
@@ -43,4 +44,38 @@
 	color: var(--white);
 	font-style: normal;
 	text-transform: capitalize;
+}
+
+.readMore {
+	z-index: 3;
+	top: 450px;
+	left: 35px;
+	border: none;
+	outline: none;
+	padding: 10px 30px;
+	border-radius: 5px;
+	color: var(--white);
+	position: absolute;
+	text-transform: uppercase;
+	background-color: var(--dark);
+	transition: all 0.3s ease-in-out;
+}
+
+.readMore:hover {
+	color: var(--dark);
+	background-color: var(--white);
+}
+
+.businessCard:hover .image {
+	transform: scale(1.2);
+}
+
+.businessCard:hover .readMore {
+	top: 200px;
+}
+
+@media (max-width: 575.98px) {
+	.businessCard {
+		margin-bottom: 24px;
+	}
 }
