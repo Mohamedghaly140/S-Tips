@@ -18,11 +18,44 @@
 
 @media (max-width: 575.98px) {
 	.navItem {
-		margin-block: 16px;
+		width: 90%;
+		margin-block: 10px;
+		text-align: center;
+		margin-inline: auto;
+
+		border: 1px solid#ddd;
+		background-color: var(--white);
+	}
+	.navItem:last-child {
+		margin-inline: auto;
 	}
 
 	.navItem a {
+		width: 100%;
+		display: block;
 		color: var(--dark);
+		padding-block: 8px;
 		transition: color 0.3s ease-in-out;
 	}
+
+	.navItem:hover {
+		background-color: var(--dark);
+	}
+
+	.navItem:hover a {
+		color: var(--white);
+	}
+
+	.active {
+		border: none;
+		color: var(--white);
+		background-color: var(--dark);
+	}
+
+	.active a {
+		color: var(--white);
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
 }
