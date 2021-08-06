@@ -5,7 +5,7 @@ class AppDocument extends Document {
 		return (
 			<Html>
 				<Head />
-				<body>
+				<body style={{ overflowX: "hidden" }}>
 					<div id="backdrop" />
 					<Main />
 					<NextScript />

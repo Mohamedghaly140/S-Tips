@@ -5,7 +5,12 @@ import banner from "../../assets/slide1.jpg";
 const Header = props => {
 	return (
 		<header className={styles.header}>
-			<Image src={banner} layout="fill" alt="banner" placeholder="blur" />
+			<Image
+				src={props.banner || banner}
+				layout="fill"
+				alt="banner"
+				placeholder="blur"
+			/>
 			<div className="container position-relative" style={{ zIndex: 2 }}>
 				<h1 className={styles.title}>S-Tips</h1>
 				<p className={styles.slogan}>The future of homes at a fingertip</p>
