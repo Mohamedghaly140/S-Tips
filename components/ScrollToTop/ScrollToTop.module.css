@@ -1,0 +1,19 @@
+.scrolltotop {
+	width: 35px;
+	height: 35px;
+	color: var(--white);
+	border-radius: 25%;
+	transition: all 0.4s;
+	border: none;
+	outline: none;
+	/* border: 1px solid #f04668; */
+	background-color: var(--dark);
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+}
+
+.scrolltotop:hover {
+	color: var(--dark);
+	background-color: var(--white);
+}
