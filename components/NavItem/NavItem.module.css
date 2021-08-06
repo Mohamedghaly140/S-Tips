@@ -9,11 +9,25 @@
 
 .navItem a {
 	color: var(--white);
-	transition: color 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 .navItem a:hover {
 	color: var(--darker);
+}
+
+.active {
+	color: var(--dark);
+	font-weight: bold;
+}
+
+.active a {
+	font-weight: bold;
+	color: var(--dark);
+}
+
+.active a:hover {
+	color: var(--white);
 }
 
 @media (max-width: 575.98px) {
@@ -58,4 +72,42 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+	.navItem {
+		width: 90%;
+		margin-block: 10px;
+		text-align: center;
+		margin-inline: auto;
+
+		border: 1px solid#ddd;
+		background-color: var(--white);
+	}
+	.navItem:last-child {
+		margin-inline: auto;
+	}
+
+	.navItem a {
+		width: 100%;
+		display: block;
+		color: var(--dark);
+		padding-block: 8px;
+		transition: color 0.3s ease-in-out;
+	}
+
+	.navItem:hover {
+		background-color: var(--dark);
+	}
+
+	.navItem:hover a {
+		color: var(--white);
+	}
+
+	.active {
+		border: none;
+		color: var(--white);
+		background-color: var(--dark);
+	}
+
+	.active a {
+		color: var(--white);
+	}
 }
