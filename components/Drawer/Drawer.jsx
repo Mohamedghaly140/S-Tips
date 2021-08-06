@@ -11,10 +11,18 @@ const Drawer = ({ open, onClose }) => {
 				</div>
 			</div>
 			<ul className={styles.navList}>
-				<NavItem href="/">Home</NavItem>
-				<NavItem href="/about">About</NavItem>
-				<NavItem href="/products">Products</NavItem>
-				<NavItem href="/contact">Contact Us</NavItem>
+				<NavItem onClick={onClose} href="/">
+					Home
+				</NavItem>
+				<NavItem onClick={onClose} href="/about">
+					About
+				</NavItem>
+				<NavItem onClick={onClose} href="/products">
+					Products
+				</NavItem>
+				<NavItem onClick={onClose} href="/contact">
+					Contact Us
+				</NavItem>
 			</ul>
 		</aside>
 	);
