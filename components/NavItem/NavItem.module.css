@@ -15,3 +15,14 @@
 .navItem a:hover {
 	color: var(--darker);
 }
+
+@media (max-width: 575.98px) {
+	.navItem {
+		margin-block: 16px;
+	}
+
+	.navItem a {
+		color: var(--dark);
+		transition: color 0.3s ease-in-out;
+	}
+}

@@ -1,26 +1,27 @@
-import ReactDOM from 'react-dom';
-import styled from 'styled-components';
+import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
+import styles from "./Backdrop.module.css";
 
-const OverLay = styled.div`
-	inset: 0;
-	z-index: 8;
-	width: 100vw;
-	height: 100vh;
-	position: fixed;
-	transition: all 0.4s ease-in;
-	background-color: rgba(0, 0, 0, 0.6);
-	display: ${({ open }) => (open ? 'block' : 'none')};
-`;
+const Backdrop = ({ open, onClose }) => {
+	const [mounted, setMounted] = useState(false);
 
-const Backdrop = ({ open, onOpenMenu }) => {
-	return <OverLay onClick={onOpenMenu} open={open} />;
-};
+	useEffect(() => {
+		setMounted(true);
 
-const BackdropContainer = ({ open, onOpenMenu }) => {
-	return ReactDOM.createPortal(
-		<Backdrop open={open} onOpenMenu={onOpenMenu} />,
-		document.getElementById('backdrop')
+		return () => setMounted(false);
+	}, []);
+
+	return (
+		mounted &&
+		createPortal(
+			<div
+				open={open}
+				onClick={onClose}
+				className={`${styles.backdrop} ${open ? styles.open : styles.close}`}
+			/>,
+			document.getElementById("backdrop")
+		)
 	);
 };
 
-export default BackdropContainer;
+export default Backdrop;

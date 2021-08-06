@@ -2,7 +2,7 @@
 	top: 0;
 	left: 0;
 	bottom: 0;
-	width: 65%;
+	width: 70%;
 	opacity: 1;
 	z-index: 19;
 	height: 100vh;
@@ -63,4 +63,24 @@
 		position: absolute;
 		right: 16px;
 	}
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.brand {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.navList {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 }
