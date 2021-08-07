@@ -54,24 +54,26 @@
 	color: var(--darker);
 }
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
 	.header {
 		justify-content: center;
 		text-align: center;
 	}
 
 	.caption {
+		width: 100%;
 		margin-bottom: 28px;
 	}
-}
+} */
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 767.98px) {
 	.header {
-		justify-content: center;
 		text-align: center;
+		justify-content: center;
 	}
 
 	.caption {
+		width: 100%;
 		margin-bottom: 48px;
 	}
 }
