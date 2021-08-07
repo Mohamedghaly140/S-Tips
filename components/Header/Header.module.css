@@ -59,11 +59,19 @@
 		justify-content: center;
 		text-align: center;
 	}
+
+	.caption {
+		margin-bottom: 28px;
+	}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.header {
 		justify-content: center;
 		text-align: center;
+	}
+
+	.caption {
+		margin-bottom: 48px;
 	}
 }
