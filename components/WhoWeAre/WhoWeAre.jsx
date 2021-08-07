@@ -10,11 +10,11 @@ const WhoWeAre = ({ imageUrl, features }) => {
 				<div className="row">
 					<div className="col-md-7">
 						<Image
-							src={imageUrl || laptop}
 							alt="laptop"
 							width={600}
 							height={600}
 							placeholder="blur"
+							src={imageUrl || laptop}
 						/>
 					</div>
 					<div className="col-md-5">

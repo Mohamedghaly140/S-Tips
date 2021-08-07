@@ -5,6 +5,7 @@ const ProductItem = ({ imageUrl, title }) => {
 	return (
 		<div className={styles.productItem}>
 			<Image
+				alt={title}
 				layout="fill"
 				src={imageUrl}
 				placeholder="blur"

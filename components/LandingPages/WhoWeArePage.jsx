@@ -21,6 +21,7 @@ const WhoWeArePage = () => {
 							<Image
 								width={660}
 								height={900}
+								alt="Who We Are"
 								placeholder="blur"
 								src={sectionImage}
 							/>

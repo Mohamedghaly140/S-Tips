@@ -10,11 +10,12 @@ const MissionCard = ({ imageUrl, title, children, black, height, grey }) => {
 			}`}
 		>
 			<Image
-				className={styles.image}
-				src={imageUrl}
+				alt={title}
 				width={510}
-				height={height || 190}
+				src={imageUrl}
 				placeholder="blur"
+				height={height || 190}
+				className={styles.image}
 			/>
 			<h3>{title}</h3>
 			{children}

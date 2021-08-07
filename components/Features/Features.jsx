@@ -9,8 +9,8 @@ const Features = ({ features, title }) => {
 			<div className="container py-5">
 				<h2 className="text-center text-uppercase mb-5">{title}</h2>
 				<div className="row py-3">
-					{features.map(item => (
-						<div className={`col-md-${columns}`}>
+					{features.map((item, i) => (
+						<div key={i} className={`col-md-${columns}`}>
 							<AdvantageCard
 								icon={item.icon}
 								title={item.title}
