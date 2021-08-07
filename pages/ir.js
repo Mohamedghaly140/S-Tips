@@ -9,7 +9,7 @@ import { RiWirelessChargingFill, RiRemoteControlLine } from "react-icons/ri";
 import SingleProductPage from "../components/SingleProductPage/SingleProductPage";
 
 const header = {
-	title: "Ac-Panel",
+	title: "Remote-IR",
 	imageUrl: panel,
 	description: "Control your electricity lines from anywhere in the world.",
 };

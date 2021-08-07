@@ -43,7 +43,7 @@ const Navbar = props => {
 						<NavItem href="/">Home</NavItem>
 						<NavItem href="/about">About</NavItem>
 						<Dropdown />
-						{/* <NavItem href="/products">Products</NavItem> */}
+						<NavItem href="/customers">Customers</NavItem>
 						<NavItem href="/contact">Contact Us</NavItem>
 					</ul>
 				</div>

@@ -19,6 +19,7 @@ const Drawer = ({ open, onClose }) => {
 					About
 				</NavItem>
 				<DraweDropdown onCloseDrawer={onClose} />
+				<NavItem href="/customers">Customers</NavItem>
 				<NavItem onClick={onClose} href="/contact">
 					Contact Us
 				</NavItem>

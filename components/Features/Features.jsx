@@ -8,7 +8,7 @@ const Features = ({ features, title }) => {
 				<h2 className="text-center text-uppercase mb-5">{title}</h2>
 				<div className="row py-3">
 					{features.map((item, i) => (
-						<div key={i} className="col-6 col-sm-6 col-md-4 my-4">
+						<div key={i} className="col-12 col-sm-6 col-md-4 my-4">
 							<AdvantageCard
 								height="auto"
 								icon={item.icon}
