@@ -42,7 +42,7 @@ const Footer = props => {
 						</p>
 						<p></p>
 					</div>
-					<div className="col-md-4">
+					<div className="col-md-4 my-5 my-sm-5 my-md-0">
 						<h5 className={styles.title}>About Us</h5>
 						<ul className={styles.list}>
 							<ListItem route="/home">Home</ListItem>
