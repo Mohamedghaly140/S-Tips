@@ -72,7 +72,7 @@ const OurValues = () => {
 			</div>
 			<div className={`${styles.values} row gx-0`}>
 				{values.map(item => (
-					<div key={item.id} className="col-4 col-sm-4 col-md">
+					<div key={item.id} className="col-8 col-sm-4 col-md">
 						<ValueCard
 							dark1={item.dark1}
 							dark2={item.dark2}

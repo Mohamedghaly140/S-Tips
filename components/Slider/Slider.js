@@ -15,7 +15,7 @@ const Slider = ({ slides }) => {
 	};
 
 	return (
-		<ReactSlider {...settings}>
+		<ReactSlider {...settings} style={{ overflowX: "hidden" }}>
 			{slides.map((item, i) => (
 				<SlideItem
 					key={i}
