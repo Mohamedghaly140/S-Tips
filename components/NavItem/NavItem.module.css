@@ -13,17 +13,17 @@
 }
 
 .navItem a:hover {
-	color: var(--darker);
+	color: var(--yellow);
 }
 
 .active {
-	color: var(--dark);
 	font-weight: bold;
+	color: var(--yellow);
 }
 
 .active a {
 	font-weight: bold;
-	color: var(--dark);
+	color: var(--yellow);
 }
 
 .active a:hover {

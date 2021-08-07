@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./Header.module.css";
-import banner from "../../assets/slide1.jpg";
+import banner from "../../assets/banner1.jpg";
 
 const Header = props => {
 	return (
@@ -11,7 +11,8 @@ const Header = props => {
 				alt="banner"
 				placeholder="blur"
 			/>
-			<div className="container position-relative" style={{ zIndex: 2 }}>
+			<div className={styles.overlay} />
+			<div className="container position-relative" style={{ zIndex: 3 }}>
 				<h1 className={styles.title}>S-Tips</h1>
 				<p className={styles.slogan}>The future of homes at a fingertip</p>
 				<button className={styles.btn}>get started now</button>
