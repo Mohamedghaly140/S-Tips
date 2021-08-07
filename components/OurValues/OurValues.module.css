@@ -1,7 +1,11 @@
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 767.98px) {
 	.values {
 		overflow-x: auto;
 		flex-wrap: nowrap;
 		flex-direction: row;
+	}
+
+	.values::-webkit-scrollbar {
+		display: none;
 	}
 }

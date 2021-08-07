@@ -40,3 +40,9 @@
 	color: var(--grey);
 	min-height: 190px;
 }
+
+@media (max-width: 767.98px) {
+	.valueCard p {
+		min-height: 260px;
+	}
+}
