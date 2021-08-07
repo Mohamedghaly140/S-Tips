@@ -20,6 +20,7 @@ const WhoWeAre = ({ imageUrl, features }) => {
 					<div className="col-md-5">
 						{features.map(item => (
 							<CardWhoWeAre
+								key={item.id}
 								icon={item.icon}
 								title={item.title}
 								description={item.description}

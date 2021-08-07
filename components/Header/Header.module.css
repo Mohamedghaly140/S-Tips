@@ -4,10 +4,10 @@
 	position: relative;
 	align-items: center;
 	background-size: cover;
-	justify-content: flex-start;
+	justify-content: space-between;
 }
 
-.header img {
+.bannerImage {
 	inset: 0;
 	z-index: 1;
 	width: 100%;
