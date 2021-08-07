@@ -25,7 +25,7 @@ const Products = () => {
 				</div>
 				<div className="row gx-0">
 					{items.map(item => (
-						<div key={item.id} className="col-md-3">
+						<div key={item.id} className="col-6 col-sm-4 col-md-3">
 							<ProductItem imageUrl={item.imageUrl} title={item.title} />
 						</div>
 					))}
