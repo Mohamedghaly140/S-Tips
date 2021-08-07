@@ -17,7 +17,7 @@ const MissionCard = ({ imageUrl, title, children, black, height, grey }) => {
 				placeholder="blur"
 			/>
 			<h3>{title}</h3>
-			<p>{children}</p>
+			{children}
 		</div>
 	);
 };
