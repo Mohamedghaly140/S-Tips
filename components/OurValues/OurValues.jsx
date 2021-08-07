@@ -60,7 +60,7 @@ const values = [
 const OurValues = () => {
 	return (
 		<section className={`${styles.ourVlaues} py-5`}>
-			<div className="row gx-0">
+			<div className="row g-0">
 				<div className="col-md-12">
 					<SlideItem
 						center
@@ -69,8 +69,10 @@ const OurValues = () => {
 						description="connect all your physical and digital things all in one place so  that give you full control of nearly everything at home—no matter where you may be"
 					/>
 				</div>
+			</div>
+			<div className={`${styles.values} row gx-0`}>
 				{values.map(item => (
-					<div key={item.id} className="col-md">
+					<div key={item.id} className="col-4 col-sm-4 col-md">
 						<ValueCard
 							dark1={item.dark1}
 							dark2={item.dark2}
