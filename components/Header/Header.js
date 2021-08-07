@@ -23,7 +23,7 @@ const Header = props => {
 					<p className={styles.slogan}>The future of homes at a fingertip</p>
 					<button className={styles.btn}>get started now</button>
 				</div>
-				<Image width={480} height={300} src={mobile} alt="mobile" />
+				<Image width={580} height={380} src={mobile} alt="mobile" />
 			</div>
 		</header>
 	);
