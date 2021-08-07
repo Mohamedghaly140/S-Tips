@@ -1,8 +1,8 @@
 import { useRef } from "react";
 import Image from "next/image";
 import styles from "./Header.module.css";
-import mainBanner from "../../assets/banner1.jpg";
 import mobile from "../../assets/mobile.gif";
+import mainBanner from "../../assets/banner1.jpg";
 
 const Header = ({ banner, title, description, showGif }) => {
 	const headerRef = useRef();
