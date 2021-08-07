@@ -19,7 +19,7 @@ const SuccessfulBusiness = () => {
 							imageUrl={b1}
 						/>
 					</div>
-					<div className="col-md-4">
+					<div className="col-md-4 my-5 my-sm-5 my-md-0">
 						<BusinessCard
 							title="partners"
 							subTitle="Our Industrial partners"

@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Head from "next/head";
 import Header from "../components/Header/Header";
+import Products from "../components/Products/Products";
 import WhoWeAre from "../components/WhoWeAre/WhoWeAre";
 import Advantages from "../components/Advantages/Advantages";
 import OurSection from "../components/OurSection/OurSection";
@@ -19,6 +20,7 @@ export default function Home() {
 			<WhoWeAre />
 			<SuccessfulBusiness />
 			<OurSection />
+			<Products />
 		</Fragment>
 	);
 }
