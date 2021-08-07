@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "./Drawer.module.css";
 import NavItem from "../NavItem/NavItem";
+import DraweDropdown from "../DrawerDropdown/DraweDropdown";
 
 const Drawer = ({ open, onClose }) => {
 	return (
@@ -17,9 +18,7 @@ const Drawer = ({ open, onClose }) => {
 				<NavItem onClick={onClose} href="/about">
 					About
 				</NavItem>
-				<NavItem onClick={onClose} href="/products">
-					Products
-				</NavItem>
+				<DraweDropdown onCloseDrawer={onClose} />
 				<NavItem onClick={onClose} href="/contact">
 					Contact Us
 				</NavItem>
