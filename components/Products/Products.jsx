@@ -6,14 +6,14 @@ import panel from "../../assets/panel.jpg";
 import switchI from "../../assets/switch.jpeg";
 
 const items = [
-	{ id: 1, title: "IR", imageUrl: ir },
-	{ id: 2, title: "Panel", imageUrl: panel },
-	{ id: 3, title: "Switch", imageUrl: switchI },
-	{ id: 4, title: "IR", imageUrl: ir },
-	{ id: 5, title: "Switch", imageUrl: switchI },
-	{ id: 6, title: "IR", imageUrl: ir },
-	{ id: 7, title: "Panel", imageUrl: panel },
-	{ id: 8, title: "Switch", imageUrl: switchI },
+	{ id: 1, title: "IR", imageUrl: ir, route: "/ir" },
+	{ id: 2, title: "Panel", imageUrl: panel, route: "/panel" },
+	{ id: 3, title: "Switch", imageUrl: switchI, route: "/switch" },
+	{ id: 4, title: "IR", imageUrl: ir, route: "/ir" },
+	{ id: 5, title: "Switch", imageUrl: switchI, route: "/switch" },
+	{ id: 6, title: "IR", imageUrl: ir, route: "/ir" },
+	{ id: 7, title: "Panel", imageUrl: panel, route: "/panel" },
+	{ id: 8, title: "Switch", imageUrl: switchI, route: "/switch" },
 ];
 
 const Products = () => {
@@ -26,7 +26,11 @@ const Products = () => {
 				<div className="row gx-0">
 					{items.map(item => (
 						<div key={item.id} className="col-6 col-sm-4 col-md-3">
-							<ProductItem imageUrl={item.imageUrl} title={item.title} />
+							<ProductItem
+								title={item.title}
+								route={item.route}
+								imageUrl={item.imageUrl}
+							/>
 						</div>
 					))}
 				</div>

@@ -1,7 +1,8 @@
+import Link from "next/link";
 import Image from "next/image";
 import styles from "./ProductItem.module.css";
 
-const ProductItem = ({ imageUrl, title }) => {
+const ProductItem = ({ imageUrl, title, route }) => {
 	return (
 		<div className={styles.productItem}>
 			<Image
@@ -11,9 +12,11 @@ const ProductItem = ({ imageUrl, title }) => {
 				placeholder="blur"
 				className={styles.image}
 			/>
-			<div className={styles.overlay}>
-				<h5 className={styles.title}>{title}</h5>
-			</div>
+			<Link href={route}>
+				<div className={styles.overlay}>
+					<h5 className={styles.title}>{title}</h5>
+				</div>
+			</Link>
 		</div>
 	);
 };

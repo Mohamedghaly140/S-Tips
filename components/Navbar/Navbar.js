@@ -5,6 +5,7 @@ import NavItem from "../NavItem/NavItem";
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import Drawer from "../Drawer/Drawer";
 import Backdrop from "../Backdrop/Backdrop";
+import Dropdown from "../Dropdown/Dropdown";
 
 const Navbar = props => {
 	const [open, setOpen] = useState(false);
@@ -41,7 +42,8 @@ const Navbar = props => {
 					<ul className={styles.navList}>
 						<NavItem href="/">Home</NavItem>
 						<NavItem href="/about">About</NavItem>
-						<NavItem href="/products">Products</NavItem>
+						<Dropdown />
+						{/* <NavItem href="/products">Products</NavItem> */}
 						<NavItem href="/contact">Contact Us</NavItem>
 					</ul>
 				</div>
