@@ -1,11 +1,21 @@
+import { useRef } from "react";
 import Image from "next/image";
 import styles from "./Header.module.css";
 import mainBanner from "../../assets/banner1.jpg";
 import mobile from "../../assets/mobile.gif";
 
 const Header = ({ banner, title, description, showGif }) => {
+	const headerRef = useRef();
+
+	const getStrtedHandler = () => {
+		window.scrollTo({
+			behavior: "smooth",
+			top: headerRef.current.clientHeight,
+		});
+	};
+
 	return (
-		<header className={styles.header}>
+		<header className={styles.header} ref={headerRef}>
 			<Image
 				layout="fill"
 				alt="banner"
@@ -23,7 +33,9 @@ const Header = ({ banner, title, description, showGif }) => {
 					<p className={styles.slogan}>
 						{description || "The future of homes at a fingertip"}
 					</p>
-					<button className={styles.btn}>get started now</button>
+					<button onClick={getStrtedHandler} className={styles.btn}>
+						get started now
+					</button>
 				</div>
 				{showGif && (
 					<Image width={580} height={380} src={mobile} alt="mobile" />
