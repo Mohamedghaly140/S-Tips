@@ -1,0 +1,42 @@
+.valueCard {
+	display: flex;
+	padding: 25px;
+	align-items: center;
+	justify-content: center;
+}
+
+.dark1 {
+	background-color: #2f3030;
+}
+
+.dark2 {
+	background-color: #222323;
+}
+
+.dark3 {
+	background-color: #191919;
+}
+
+.dark4 {
+	background-color: #0f0f0f;
+}
+
+.dark5 {
+	background-color: #000;
+}
+
+.valueCard h5 {
+	font-size: 18px;
+	min-height: 50px;
+	line-height: 23px;
+	margin-bottom: 16px;
+	font-style: normal;
+	color: var(--white);
+}
+
+.valueCard p {
+	font-size: 14px;
+	font-style: normal;
+	color: var(--grey);
+	min-height: 190px;
+}

@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import laptop from "../assets/laptop.jpg";
+import OurValues from "../components/OurValues/OurValues";
 import PowerfulSolutions from "../components/PowerfulSolutions/PowerfulSolutions";
 import Slider from "../components/Slider/Slider";
 
@@ -23,6 +24,7 @@ const customers = () => {
 		<Fragment>
 			<Slider slides={slides} />
 			<PowerfulSolutions />
+			<OurValues />
 		</Fragment>
 	);
 };

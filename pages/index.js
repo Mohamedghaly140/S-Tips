@@ -7,6 +7,27 @@ import Advantages from "../components/Advantages/Advantages";
 import OurSection from "../components/OurSection/OurSection";
 import SuccessfulBusiness from "../components/SuccessfulBusiness/SuccessfulBusiness";
 
+import { GiDiscussion } from "react-icons/gi";
+import { SiTrustpilot } from "react-icons/si";
+import laptop from "../assets/laptop.jpg";
+
+const featurs = [
+	{
+		id: 1,
+		title: "who we are",
+		description:
+			"We empower users and manufacturers with a platform that enhances the lifestyle, cuts costs, and maximizes efficiency.",
+		icon: <GiDiscussion size="2.2em" />,
+	},
+	{
+		id: 2,
+		title: "Why us",
+		description:
+			"We took an extra step to provide our customers with a home automation solution that combines maximum functionality at the best cost.",
+		icon: <SiTrustpilot size="2.2em" />,
+	},
+];
+
 export default function Home() {
 	return (
 		<Fragment>
@@ -17,7 +38,7 @@ export default function Home() {
 			</Head>
 			<Header />
 			<Advantages />
-			<WhoWeAre />
+			<WhoWeAre imageUrl={laptop} features={featurs} />
 			<SuccessfulBusiness />
 			<OurSection />
 			<Products />

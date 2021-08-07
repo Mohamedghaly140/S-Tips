@@ -5,7 +5,7 @@ import styles from "./CardWhoWeAre.module.css";
 const CardWhoWeAre = ({ icon, title, description }) => {
 	return (
 		<div className={styles.CardWhoWeAre}>
-			<div className={styles.icon}>{icon()}</div>
+			<div className={styles.icon}>{icon}</div>
 			<div className={styles.content}>
 				<h5 className={styles.title}>{title}</h5>
 				<p className={styles.description}>{description}</p>

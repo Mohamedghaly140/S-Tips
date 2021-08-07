@@ -1,9 +1,7 @@
-import Image from "next/image";
 import ReactSlider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styles from "./Slider.module.css";
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+import SlideItem from "../SlideItem/SlideItem";
 
 const Slider = ({ slides }) => {
 	const settings = {
@@ -19,15 +17,13 @@ const Slider = ({ slides }) => {
 	return (
 		<ReactSlider {...settings}>
 			{slides.map((item, i) => (
-				<div className={styles.slide} key={i}>
-					<div className={styles.overlay} />
-					<Image src={item.imageUrl} layout="fill" placeholder="blur" />
-					<div className={`${styles.caption} container`}>
-						<h1 className={styles.title}>{item.title}</h1>
-						<p className={styles.slogan}>{item.description}</p>
-						<button className={styles.btn}>get started now</button>
-					</div>
-				</div>
+				<SlideItem
+					key={i}
+					showBtn
+					title={item.title}
+					imageUrl={item.imageUrl}
+					description={item.description}
+				/>
 			))}
 		</ReactSlider>
 	);
