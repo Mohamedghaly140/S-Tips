@@ -99,14 +99,18 @@ const WhoWeArePage = () => {
 					<div className="row">
 						<div className="col-md-6">
 							<MissionCard title="Our Vision" imageUrl={bicycle}>
-								One platform that makes it easy to obtain luxury, comfort, and
-								efficiency for every home around the globe
+								<p>
+									One platform that makes it easy to obtain luxury, comfort, and
+									efficiency for every home around the globe
+								</p>
 							</MissionCard>
 						</div>
 						<div className="col-md-6 mt-5 mt-md-0">
 							<MissionCard title="Our Mission" imageUrl={bicycle} black>
-								To empower users and manufacturers with a platform that enhances
-								the lifestyle, cuts costs, and maximizes efficiency
+								<p>
+									To empower users and manufacturers with a platform that
+									enhances the lifestyle, cuts costs, and maximizes efficiency
+								</p>
 							</MissionCard>
 						</div>
 					</div>
