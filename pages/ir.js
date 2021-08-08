@@ -1,33 +1,34 @@
 import panel from "../assets/panel.jpg";
-import acPanel from "../assets/ac-panel.jpg";
-import { AiOutlineApi } from "react-icons/ai";
+import iRImage from "../assets/ir.jpeg";
+import { TiThLarge } from "react-icons/ti";
 import { MdPhonelinkSetup } from "react-icons/md";
+import { FaChalkboardTeacher } from "react-icons/fa";
+import { RiRemoteControlLine } from "react-icons/ri";
 import { GrInstall, GrUpgrade } from "react-icons/gr";
-import { IoColorFilterOutline } from "react-icons/io5";
-import { FaPowerOff, FaSolarPanel } from "react-icons/fa";
-import { RiWirelessChargingFill, RiRemoteControlLine } from "react-icons/ri";
+import { MdSettingsRemote, MdCastConnected } from "react-icons/md";
 import SingleProductPage from "../components/SingleProductPage/SingleProductPage";
 
 const header = {
 	title: "Remote-IR",
 	imageUrl: panel,
-	description: "Control your electricity lines from anywhere in the world.",
+	description:
+		"Control your television, fan, Air-Codition, heating or any other infrared controlled device through  mobile app with this IR blaster.",
 };
 
 const features = {
-	title: "Ac-Panel Features",
+	title: "Features",
 	features: [
 		{
 			id: 1,
-			title: "lines control",
+			title: "Remote Control",
 			description: "",
 			icon: <RiRemoteControlLine size="2.2em" />,
 		},
 		{
 			id: 2,
-			title: "16/32 channel relay output unit",
+			title: "Control any IR controlled device",
 			description: "",
-			icon: <AiOutlineApi size="2.2em" />,
+			icon: <MdCastConnected size="2.2em" />,
 		},
 		{
 			id: 3,
@@ -37,15 +38,15 @@ const features = {
 		},
 		{
 			id: 4,
-			title: "Mass turn-on/turn-off for all channels",
+			title: "Manually learn any unknown IR device",
 			description: "",
-			icon: <FaPowerOff size="2.2em" />,
+			icon: <FaChalkboardTeacher size="2.2em" />,
 		},
 		{
 			id: 5,
-			title: "Wireless Control",
+			title: "Large Database for Brands",
 			description: "",
-			icon: <RiWirelessChargingFill size="2.2em" />,
+			icon: <TiThLarge size="2.2em" />,
 		},
 		{
 			id: 6,
@@ -53,30 +54,24 @@ const features = {
 			description: "",
 			icon: <GrInstall size="2.2em" />,
 		},
-		{
-			id: 7,
-			title: "Stylish look with RGB light system",
-			description: "",
-			icon: <IoColorFilterOutline size="2.2em" />,
-		},
 	],
 };
 
 const aboutProduct = {
-	imageUrl: acPanel,
+	imageUrl: iRImage,
 	features: [
 		{
 			id: 1,
-			title: "Beast Endurance",
+			title: "One Place to control all devices",
 			description:
-				"S-Tips Ac Panel is designed to resist loads up to 100 mA, so your Appliances Like Air conditions, Refrigerators, Heaters,. Etc are in safe hands",
-			icon: <FaSolarPanel size="2.2em" />,
+				"Control your television, fan, air-condition, heating, or any other infrared-controlled device through a mobile app with this IR blaster. Take control of your devices wherever you are in the world and never have to search for the remote control again",
+			icon: <MdSettingsRemote size="2.2em" />,
 		},
 		{
 			id: 2,
-			title: "easy Installation",
+			title: "Manually learn any unknown IR Remote",
 			description:
-				"S-Tips Ac Panel is designed to be installed easily over the wall and no need to crack your artistic walls",
+				"Simply select the device type and brand, have the app search for a compatible remote and done. Is the remote not available on the database list ? No worries, you have the option to manually learn any unknown IR device to also support less known brands or other products. There must be already a no brand fan, heater or other product in your home which can be controlled by this blaster.",
 			icon: <MdPhonelinkSetup size="2.2em" />,
 		},
 	],

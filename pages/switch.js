@@ -1,83 +1,64 @@
-import panel from "../assets/panel.jpg";
-import acPanel from "../assets/ac-panel.jpg";
+import switch_banner from "../assets/switch_banner.png";
+import switchImage from "../assets/switch.jpeg";
+import { MdTouchApp } from "react-icons/md";
 import { AiOutlineApi } from "react-icons/ai";
-import { MdPhonelinkSetup } from "react-icons/md";
-import { GrInstall, GrUpgrade } from "react-icons/gr";
-import { IoColorFilterOutline } from "react-icons/io5";
-import { FaPowerOff, FaSolarPanel } from "react-icons/fa";
-import { RiWirelessChargingFill, RiRemoteControlLine } from "react-icons/ri";
+import { SiSmartthings } from "react-icons/si";
+import { RiRemoteControlLine } from "react-icons/ri";
+import { GrSchedules, GrIntegration } from "react-icons/gr";
 import SingleProductPage from "../components/SingleProductPage/SingleProductPage";
 
 const header = {
 	title: "Wall-Switch",
-	imageUrl: panel,
-	description: "Control your electricity lines from anywhere in the world.",
+	imageUrl: switch_banner,
+	description: "Controlling your Home Switches can't be easier.",
 };
 
 const features = {
-	title: "Ac-Panel Features",
+	title: "Features",
 	features: [
 		{
 			id: 1,
-			title: "lines control",
+			title: "elegent desgin",
 			description: "",
 			icon: <RiRemoteControlLine size="2.2em" />,
 		},
 		{
 			id: 2,
-			title: "16/32 channel relay output unit",
+			title: "wireless control",
 			description: "",
 			icon: <AiOutlineApi size="2.2em" />,
 		},
 		{
 			id: 3,
-			title: "Supports online upgrade",
+			title: "integration with motion detctors",
 			description: "",
-			icon: <GrUpgrade size="2.2em" />,
+			icon: <GrIntegration size="2.2em" />,
 		},
 		{
 			id: 4,
-			title: "Mass turn-on/turn-off for all channels",
+			title: "one touch control",
 			description: "",
-			icon: <FaPowerOff size="2.2em" />,
-		},
-		{
-			id: 5,
-			title: "Wireless Control",
-			description: "",
-			icon: <RiWirelessChargingFill size="2.2em" />,
-		},
-		{
-			id: 6,
-			title: "Easy Installation",
-			description: "",
-			icon: <GrInstall size="2.2em" />,
-		},
-		{
-			id: 7,
-			title: "Stylish look with RGB light system",
-			description: "",
-			icon: <IoColorFilterOutline size="2.2em" />,
+			icon: <MdTouchApp size="2.2em" />,
 		},
 	],
 };
 
 const aboutProduct = {
-	imageUrl: acPanel,
+	imageUrl: switchImage,
 	features: [
 		{
 			id: 1,
-			title: "Beast Endurance",
+			title: "Traditional but Smart",
 			description:
-				"S-Tips Ac Panel is designed to resist loads up to 100 mA, so your Appliances Like Air conditions, Refrigerators, Heaters,. Etc are in safe hands",
-			icon: <FaSolarPanel size="2.2em" />,
+				"S-tips smart switch unit is the next generation of traditional wall switches, a smart light switch can turn your fixtures on and off, but because it's linked to the cloud, you can also control it remotely from your phone",
+			icon: <SiSmartthings size="2.2em" />,
 		},
 		{
 			id: 2,
-			title: "easy Installation",
+			title: "Easy to Schedule",
 			description:
-				"S-Tips Ac Panel is designed to be installed easily over the wall and no need to crack your artistic walls",
-			icon: <MdPhonelinkSetup size="2.2em" />,
+				"With S-Tips smart switch unit you can easily schedule its behavior so it can Turn on/off automatically without your interference",
+			icon: <GrSchedules size="2.2em" />,
 		},
 	],
 };

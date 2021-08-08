@@ -10,7 +10,7 @@ const DropdownItem = ({ children, route, onClick }) => {
 	);
 };
 
-const Dropdown = () => {
+const Dropdown = ({ active }) => {
 	const [open, setOpen] = useState(false);
 
 	const openDropdownHandler = () => {
@@ -24,14 +24,14 @@ const Dropdown = () => {
 	return (
 		<div className={styles.dropdown}>
 			<button
-				className={styles.dropdown__link}
+				className={`${styles.dropdown__link} ${active && styles.active}`}
 				onMouseEnter={openDropdownHandler}
 			>
 				Products
 			</button>
 			{open && (
 				<ul
-					className={styles.dropdown__menu}
+					className={`${styles.dropdown__menu} ${active && styles.active}`}
 					onMouseLeave={closeDropdownHandler}
 				>
 					<DropdownItem onClick={closeDropdownHandler} route="/panel">

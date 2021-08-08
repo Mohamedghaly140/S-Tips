@@ -11,9 +11,9 @@ const WhoWeAre = ({ imageUrl, features }) => {
 					<div className="col-md-7">
 						<Image
 							alt="laptop"
-							width={600}
+							width={900}
 							height={600}
-							placeholder="blur"
+							// placeholder="blur"
 							src={imageUrl || laptop}
 						/>
 					</div>

@@ -15,7 +15,7 @@ const header = {
 };
 
 const features = {
-	title: "Ac-Panel Features",
+	title: "Features",
 	features: [
 		{
 			id: 1,

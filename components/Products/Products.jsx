@@ -2,7 +2,7 @@ import ProductItem from "../ProductItem/ProductItem";
 import styles from "./Products.module.css";
 
 import ir from "../../assets/ir.jpeg";
-import panel from "../../assets/panel.jpg";
+import panel from "../../assets/ac-panel.jpg";
 import switchI from "../../assets/switch.jpeg";
 
 const items = [

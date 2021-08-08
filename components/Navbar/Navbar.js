@@ -1,11 +1,14 @@
 import { useState, useEffect, Fragment } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./Navbar.module.css";
 import NavItem from "../NavItem/NavItem";
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import Drawer from "../Drawer/Drawer";
 import Backdrop from "../Backdrop/Backdrop";
 import Dropdown from "../Dropdown/Dropdown";
+import logoWhite from "../../assets/logo_white.png";
+import logoBlack from "../../assets/logo_black.png";
 
 const Navbar = props => {
 	const [open, setOpen] = useState(false);
@@ -32,7 +35,16 @@ const Navbar = props => {
 			<nav className={`${styles.navbar} ${active && styles.active}`}>
 				<div className={`${styles.container} container`}>
 					<Link href="/">
-						<a className={styles.brand}>S-Tips</a>
+						<a
+							className={`${styles.brand} d-flex align-items-center justify-content-center`}
+						>
+							<Image
+								width={100}
+								height={40}
+								src={active ? logoBlack : logoWhite}
+								alt="s-tips"
+							/>
+						</a>
 					</Link>
 					<HamburgerMenu
 						open={open}
@@ -42,7 +54,7 @@ const Navbar = props => {
 					<ul className={styles.navList}>
 						<NavItem href="/">Home</NavItem>
 						<NavItem href="/about">About</NavItem>
-						<Dropdown />
+						<Dropdown active={active} />
 						<NavItem href="/customers">Customers</NavItem>
 						<NavItem href="/contact">Contact Us</NavItem>
 					</ul>
