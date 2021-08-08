@@ -1,3 +1,5 @@
+import Head from "next/head";
+import { Fragment } from "react";
 import panel from "../assets/panel.jpg";
 import acPanel from "../assets/ac-panel.jpg";
 import { AiOutlineApi } from "react-icons/ai";
@@ -84,11 +86,20 @@ const aboutProduct = {
 
 const Panel = () => {
 	return (
-		<SingleProductPage
-			header={header}
-			features={features}
-			aboutProduct={aboutProduct}
-		/>
+		<Fragment>
+			<Head>
+				<title>S-Tips | Ac-Panel</title>
+				<meta
+					name="description"
+					content="Control your electricity lines from anywhere in the world."
+				/>
+			</Head>
+			<SingleProductPage
+				header={header}
+				features={features}
+				aboutProduct={aboutProduct}
+			/>
+		</Fragment>
 	);
 };
 

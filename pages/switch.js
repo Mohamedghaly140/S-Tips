@@ -1,3 +1,5 @@
+import Head from "next/head";
+import { Fragment } from "react";
 import switch_banner from "../assets/switch_banner.png";
 import switchImage from "../assets/switch.jpeg";
 import { MdTouchApp } from "react-icons/md";
@@ -65,11 +67,20 @@ const aboutProduct = {
 
 const Switch = () => {
 	return (
-		<SingleProductPage
-			header={header}
-			features={features}
-			aboutProduct={aboutProduct}
-		/>
+		<Fragment>
+			<Head>
+				<title>S-Tips | Wall-Switch</title>
+				<meta
+					name="description"
+					content="Controlling your Home Switches can't be easier."
+				/>
+			</Head>
+			<SingleProductPage
+				header={header}
+				features={features}
+				aboutProduct={aboutProduct}
+			/>
+		</Fragment>
 	);
 };
 

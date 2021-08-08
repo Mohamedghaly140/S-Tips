@@ -7,7 +7,7 @@ const Who = () => {
 	return (
 		<Fragment>
 			<Head>
-				<title>S-Tips | Who we are</title>
+				<title>S-Tips | About</title>
 				<meta name="description" content="Who we are" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>

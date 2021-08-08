@@ -1,3 +1,5 @@
+import Head from "next/head";
+import { Fragment } from "react";
 import panel from "../assets/panel.jpg";
 import iRImage from "../assets/ir.jpeg";
 import { TiThLarge } from "react-icons/ti";
@@ -79,11 +81,20 @@ const aboutProduct = {
 
 const IR = () => {
 	return (
-		<SingleProductPage
-			header={header}
-			features={features}
-			aboutProduct={aboutProduct}
-		/>
+		<Fragment>
+			<Head>
+				<title>S-Tips | Remote-IR</title>
+				<meta
+					name="description"
+					content="Control your television, fan, Air-Codition, heating or any other infrared controlled device through  mobile app with this IR blaster."
+				/>
+			</Head>
+			<SingleProductPage
+				header={header}
+				features={features}
+				aboutProduct={aboutProduct}
+			/>
+		</Fragment>
 	);
 };
 

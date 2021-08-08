@@ -7,9 +7,9 @@ import Advantages from "../components/Advantages/Advantages";
 import OurSection from "../components/OurSection/OurSection";
 import SuccessfulBusiness from "../components/SuccessfulBusiness/SuccessfulBusiness";
 
-import { GiDiscussion } from "react-icons/gi";
-import { SiTrustpilot } from "react-icons/si";
+import { TiGroup } from "react-icons/ti";
 import mobile from "../assets/mobile.gif";
+import { AiFillStar } from "react-icons/ai";
 
 const featurs = [
 	{
@@ -17,14 +17,14 @@ const featurs = [
 		title: "who we are",
 		description:
 			"We empower users and manufacturers with a platform that enhances the lifestyle, cuts costs, and maximizes efficiency.",
-		icon: <GiDiscussion size="2.2em" />,
+		icon: <TiGroup size="2.2em" />,
 	},
 	{
 		id: 2,
 		title: "Why us",
 		description:
 			"We took an extra step to provide our customers with a home automation solution that combines maximum functionality at the best cost.",
-		icon: <SiTrustpilot size="2.2em" />,
+		icon: <AiFillStar size="2.2em" />,
 	},
 ];
 
