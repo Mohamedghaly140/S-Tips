@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import panel from "../assets/panel.jpg";
 import iRImage from "../assets/ir.jpeg";
+import ir from "../assets/irBanner.jpeg";
 import { TiThLarge } from "react-icons/ti";
 import { MdPhonelinkSetup } from "react-icons/md";
 import { FaChalkboardTeacher } from "react-icons/fa";
@@ -12,7 +12,7 @@ import SingleProductPage from "../components/SingleProductPage/SingleProductPage
 
 const header = {
 	title: "Remote-IR",
-	imageUrl: panel,
+	imageUrl: ir,
 	description:
 		"Control your television, fan, Air-Codition, heating or any other infrared controlled device through  mobile app with this IR blaster.",
 };
