@@ -14,23 +14,23 @@ const Advantages = () => {
 				<div className="row py-3">
 					<div className="col-md-4">
 						<AdvantageCard
-							title="Integration"
+							title="Integration Problems"
 							icon={<GrIntegration size="2.2em" />}
-							description="Lack of interoperability and integration among commercial products leads to limited functionality"
+							description="Our modular design products are fully connected with the widest range of functionality for every house"
 						/>
 					</div>
 					<div className="col-md-4">
 						<AdvantageCard
 							title="High cost"
 							icon={<IoMdCash size="2.2em" />}
-							description="High installation costs and requirements Fully connected houses cost 2K-150K US$"
+							description="No more expensive requirements for installation or unnecessary features"
 						/>
 					</div>
 					<div className="col-md-4">
 						<AdvantageCard
 							title="Poor users experience"
 							icon={<AiOutlineUserSwitch size="2.2em" />}
-							description="Inefficient user experience, long installation time and limited online or offline functionality"
+							description="Easiest software to manage all your devices at once from one place"
 						/>
 					</div>
 				</div>
