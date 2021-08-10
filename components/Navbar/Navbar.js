@@ -40,7 +40,7 @@ const Navbar = props => {
 						>
 							<Image
 								width={100}
-								height={40}
+								height={50}
 								src={active ? logoBlack : logoWhite}
 								alt="s-tips"
 							/>

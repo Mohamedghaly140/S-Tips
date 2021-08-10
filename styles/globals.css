@@ -15,8 +15,7 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  font-family: "Aldrich", sans-serif;
-}
+  font-family: 'Open Sans', sans-serif;}
 
 a {
   color: inherit;

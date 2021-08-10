@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Fragment } from "react";
 import switch_banner from "../assets/switch_banner.png";
-import switchImage from "../assets/switch.jpeg";
+import switchImage from "../assets/switch.png";
 import { MdTouchApp } from "react-icons/md";
 import { AiOutlineApi } from "react-icons/ai";
 import { SiSmartthings } from "react-icons/si";
@@ -79,6 +79,7 @@ const Switch = () => {
 				header={header}
 				features={features}
 				aboutProduct={aboutProduct}
+				
 			/>
 		</Fragment>
 	);

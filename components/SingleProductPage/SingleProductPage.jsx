@@ -17,6 +17,8 @@ const SingleProductPage = props => {
 			<WhoWeAre
 				features={aboutProduct.features}
 				imageUrl={aboutProduct.imageUrl}
+				width={600}
+				height={600}
 			/>
 		</Fragment>
 	);

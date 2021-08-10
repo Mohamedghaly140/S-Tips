@@ -10,6 +10,8 @@ import { RiWirelessChargingLine } from "react-icons/ri";
 import { FaMobileAlt } from "react-icons/fa";
 import MissionCard from "../MissionCard/MissionCard";
 import bicycle from "../../assets/bicycle.jpg";
+import mission from "../../assets/mission.jpg";
+
 
 const WhoWeArePage = () => {
 	return (
@@ -99,7 +101,7 @@ const WhoWeArePage = () => {
 					</h2>
 					<div className="row">
 						<div className="col-md-6">
-							<MissionCard title="Our Vision" imageUrl={bicycle}>
+							<MissionCard title="Our Vision" imageUrl={bicycle} height={300}>
 								<p>
 									One platform that makes it easy to obtain luxury, comfort, and
 									efficiency for every home around the globe
@@ -107,7 +109,7 @@ const WhoWeArePage = () => {
 							</MissionCard>
 						</div>
 						<div className="col-md-6 mt-5 mt-md-0">
-							<MissionCard title="Our Mission" imageUrl={bicycle} black>
+							<MissionCard title="Our Mission" imageUrl={mission} black height={300}>
 								<p>
 									To empower users and manufacturers with a platform that
 									enhances the lifestyle, cuts costs, and maximizes efficiency

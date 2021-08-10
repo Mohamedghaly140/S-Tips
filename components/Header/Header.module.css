@@ -27,13 +27,16 @@
 
 .title {
 	color: var(--white);
+	font-family: "Aldrich", sans-serif;
+	font-size: 55px;
 }
 
 .slogan {
-	max-width: 60%;
+	max-width: 100%;
 	color: var(--white);
 	letter-spacing: 1.1px;
 	text-transform: capitalize;
+	font-size: 30px;
 }
 
 .btn {

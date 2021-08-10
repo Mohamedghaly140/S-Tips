@@ -8,7 +8,7 @@ import OurSection from "../components/OurSection/OurSection";
 import SuccessfulBusiness from "../components/SuccessfulBusiness/SuccessfulBusiness";
 
 import { TiGroup } from "react-icons/ti";
-import mobile from "../assets/mobile.gif";
+import mobile from "../assets/about_us.jpg";
 import { AiFillStar } from "react-icons/ai";
 
 const featurs = [
@@ -38,7 +38,7 @@ export default function Home() {
 			</Head>
 			<Header />
 			<Advantages />
-			<WhoWeAre imageUrl={mobile} features={featurs} />
+			<WhoWeAre imageUrl={mobile} features={featurs} width={500} height={400} />
 			<SuccessfulBusiness />
 			<OurSection />
 			<Products />

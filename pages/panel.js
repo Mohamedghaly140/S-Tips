@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Fragment } from "react";
 import panel from "../assets/panel.jpg";
-import acPanel from "../assets/ac-panel.jpg";
+import acPanel from "../assets/ac-panel.png";
 import { AiOutlineApi } from "react-icons/ai";
 import { MdPhonelinkSetup } from "react-icons/md";
 import { GrInstall, GrUpgrade } from "react-icons/gr";

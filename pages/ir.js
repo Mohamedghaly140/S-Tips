@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import iRImage from "../assets/ir.jpeg";
-import ir from "../assets/irBanner.jpeg";
+import iRImage from "../assets/ir.png";
+import ir from "../assets/irBanner.jpg";
 import { TiThLarge } from "react-icons/ti";
 import { MdPhonelinkSetup } from "react-icons/md";
 import { FaChalkboardTeacher } from "react-icons/fa";

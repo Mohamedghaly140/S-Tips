@@ -3,7 +3,7 @@ import laptop from "../../assets/laptop.jpg";
 import CardWhoWeAre from "../CardWhoWeAre/CardWhoWeAre";
 import styles from "./WhoWeAre.module.css";
 
-const WhoWeAre = ({ imageUrl, features }) => {
+const WhoWeAre = ({ imageUrl, features, width, height }) => {
 	return (
 		<section className={`${styles.whoWeAre} py-5`}>
 			<div className="container py-5">
@@ -11,8 +11,8 @@ const WhoWeAre = ({ imageUrl, features }) => {
 					<div className="col-md-7">
 						<Image
 							alt="laptop"
-							width={900}
-							height={600}
+							width={width}
+							height={height}
 							// placeholder="blur"
 							src={imageUrl || laptop}
 						/>

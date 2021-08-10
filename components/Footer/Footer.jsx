@@ -33,12 +33,12 @@ const Footer = props => {
 					<div className="col-md-4">
 						<h5 className={styles.title}>S-Tips</h5>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-							eveniet mollitia accusamus quod ipsum consectetur adipisci
-							incidunt libero, vero dolores, obcaecati aliquam. Consequatur
-							porro beatae expedita fuga velit sapiente inventore maiores
-							recusandae, explicabo qui obcaecati dicta fugit doloribus ullam
-							ratione?
+						S-tips is a leading company in the field of smart home automation. 
+						with a professional industrial chain, which has research and development, 
+						production, services, and support all in one. We design, supply, 
+						and install control systems that bring everything together under a single, 
+						simple-to-use interface, to make it easy to obtain luxury, comfort, and efficiency 
+						for homes from anywhere efficiently.
 						</p>
 						<p></p>
 					</div>

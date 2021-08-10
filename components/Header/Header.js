@@ -29,13 +29,13 @@ const Header = ({ banner, title, description, showGif }) => {
 				style={{ zIndex: 3 }}
 			>
 				<div className={styles.caption}>
-					<h1 className={styles.title}>{title || "S-Tips"}</h1>
+					<h1 className={styles.title}>{title || "S-TIPS"}</h1>
 					<p className={styles.slogan}>
 						{description || "The future of homes at a fingertip"}
 					</p>
-					<button onClick={getStrtedHandler} className={styles.btn}>
+					{/* <button onClick={getStrtedHandler} className={styles.btn}>
 						get started now
-					</button>
+					</button> */}
 				</div>
 				{showGif && (
 					<Image width={580} height={380} src={mobile} alt="mobile" />
