@@ -3,7 +3,7 @@ import styles from "./CardAction.module.css";
 
 const CardAction = ({ children, href }) => {
 	return (
-		<Link href={href} className={styles.action}>
+		<Link href="/contact" className={styles.action}>
 			{children}
 		</Link>
 	);

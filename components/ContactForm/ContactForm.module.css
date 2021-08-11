@@ -9,10 +9,12 @@
 	color: #727272;
 	font-style: normal;
 	font-weight: normal;
+	margin-bottom: 18px;
 }
 
 .contactForm {
 	padding: 30px;
+	margin-top: 20px;
 	background: var(--white);
 }
 
@@ -20,6 +22,7 @@
 	outline: none;
 	font-size: 14px;
 	font-weight: 500;
+	margin-top: 16px;
 	padding: 14px 20px;
 	border-radius: 3px;
 	color: var(--white);

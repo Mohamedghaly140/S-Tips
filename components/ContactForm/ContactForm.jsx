@@ -46,7 +46,12 @@ const ContactForm = () => {
 
 	return (
 		<section>
-			<h3 className={styles.title}></h3>
+			<h3 className={styles.title}>Contact Us</h3>
+			<p className={styles.description}>
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et
+				justo. Praesent mattis commodo augue. Aliquam ornare hendrerit
+				consectetuer adipiscing elit. Suspendisse et justo. augue.
+			</p>
 			<form onSubmit={onSubmitHandler} className={styles.contactForm}>
 				{inputs.map(item => (
 					<FormGroup

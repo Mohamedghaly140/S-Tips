@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Header from "../components/Header/Header";
 import ContactForm from "../components/ContactForm/ContactForm";
+import ContactInfo from "../components/ContactInfo/ContactInfo";
 
 const contact = () => {
 	return (
@@ -12,7 +13,9 @@ const contact = () => {
 						<div className="col-md-6">
 							<ContactForm />
 						</div>
-						<div className="col-md-6"></div>
+						<div className="col-md-6">
+							<ContactInfo />
+						</div>
 					</div>
 				</div>
 			</section>
