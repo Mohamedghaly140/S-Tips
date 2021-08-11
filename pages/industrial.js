@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Fragment } from "react";
 import laptop from "../assets/laptop.jpg";
 import Slider from "../components/Slider/Slider";
@@ -41,6 +42,9 @@ const list = {
 const Industrial = () => {
 	return (
 		<Fragment>
+			<Head>
+				<title>S-Tips | Industrial</title>
+			</Head>
 			<Slider slides={slides} />
 			<PowerfulSolutions />
 			<OfferBanner title={offer.title} subTitle={offer.subTitle} />

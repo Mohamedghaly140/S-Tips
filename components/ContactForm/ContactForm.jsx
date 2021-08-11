@@ -134,7 +134,7 @@ const ContactForm = () => {
 					</p>
 				)}
 				{isLoading ? (
-					<div class="spinner-border" role="status" />
+					<div className="spinner-border" role="status" />
 				) : (
 					<button type="submit" className={styles.submit}>
 						Send Message

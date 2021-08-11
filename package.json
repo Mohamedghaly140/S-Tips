@@ -1,29 +1,30 @@
 {
-  "name": "s-tips",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "deploy": "vercel --prod",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "axios": "^0.21.1",
-    "bootstrap": "^5.1.0",
-    "next": "11.0.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-google-maps": "^9.4.5",
-    "react-hook-form": "^7.12.2",
-    "react-icons": "^4.2.0",
-    "react-slick": "^0.28.1",
-    "react-toastify": "^7.0.4",
-    "slick-carousel": "^1.8.1"
-  },
-  "devDependencies": {
-    "eslint": "7.31.0",
-    "eslint-config-next": "11.0.1"
-  }
+	"name": "s-tips",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"export": "next export",
+		"start": "next start",
+		"deploy": "vercel --prod",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"bootstrap": "^5.1.0",
+		"next": "11.0.1",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"react-google-maps": "^9.4.5",
+		"react-hook-form": "^7.12.2",
+		"react-icons": "^4.2.0",
+		"react-slick": "^0.28.1",
+		"react-toastify": "^7.0.4",
+		"slick-carousel": "^1.8.1"
+	},
+	"devDependencies": {
+		"eslint": "7.31.0",
+		"eslint-config-next": "11.0.1"
+	}
 }

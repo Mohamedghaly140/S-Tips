@@ -26,7 +26,6 @@ const SuccessfulBusiness = () => {
 							subTitle="Our Industrial partners"
 							imageUrl={b2}
 							route="/industrial"
-							route="/industrial"
 						/>
 					</div>
 					<div className="col-md-4">
