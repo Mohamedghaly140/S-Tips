@@ -17,6 +17,7 @@ const SuccessfulBusiness = () => {
 							title="customers"
 							subTitle="Our customers"
 							imageUrl={b1}
+							route="/customers"
 						/>
 					</div>
 					<div className="col-md-4 my-5 my-sm-5 my-md-0">
@@ -24,6 +25,8 @@ const SuccessfulBusiness = () => {
 							title="partners"
 							subTitle="Our Industrial partners"
 							imageUrl={b2}
+							route="/industrial"
+							route="/industrial"
 						/>
 					</div>
 					<div className="col-md-4">
@@ -31,6 +34,7 @@ const SuccessfulBusiness = () => {
 							title="real estate"
 							subTitle="Our real estate partners"
 							imageUrl={b3}
+							route="/real-estate"
 						/>
 					</div>
 				</div>

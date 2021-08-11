@@ -1,10 +1,30 @@
 import styles from "./FormGroup.module.css";
 
-const FormGroup = ({ label, value, onChange, input, textarea }) => {
+const Stared = () => (
+	<em
+		style={{
+			color: "#2ecc71",
+			fontSize: "12px",
+			fontStyle: "normal",
+		}}
+	>
+		*
+	</em>
+);
+
+const FormGroup = ({
+	label,
+	value,
+	input,
+	required,
+	onChange,
+	textarea,
+	...restProps
+}) => {
 	return (
 		<div className={styles.formGroup}>
 			<label htmlFor={label} className={styles.label}>
-				{label}
+				{label} {required && <Stared />}
 			</label>
 			{input && (
 				<input
@@ -12,6 +32,7 @@ const FormGroup = ({ label, value, onChange, input, textarea }) => {
 					id={label}
 					name={label}
 					value={value}
+					{...restProps}
 					onChange={onChange}
 					className={styles.input}
 				/>
@@ -22,6 +43,7 @@ const FormGroup = ({ label, value, onChange, input, textarea }) => {
 					rows="5"
 					id={label}
 					name={label}
+					{...restProps}
 					className={styles.textarea}
 				/>
 			)}

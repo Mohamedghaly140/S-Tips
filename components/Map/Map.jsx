@@ -24,9 +24,9 @@ const API_KEY = "AIzaSyB1rYD_znfOrNZ4nnZySKTHQUMbJAvTXBI";
 
 const Map = () => {
 	return (
-		<div className="w-100 mt-4" style={{ height: "60vh" }}>
+		<div className="w-100 mt-4" style={{ height: "50vh" }}>
 			<MapWrapper
-				googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=`}
+				googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${API_KEY}`}
 				loadingElement={<div className="spinner-border" role="status" />}
 				containerElement={<div className="h-100" />}
 				mapElement={<div style={{ height: `100%` }} />}

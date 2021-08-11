@@ -1,0 +1,34 @@
+.list {
+	padding-block: 4rem;
+	background-color: var(--white);
+}
+
+.title {
+	font-size: 22px;
+	color: var(--dark);
+	margin-bottom: 4px;
+}
+
+.description {
+	font-size: 14px;
+	color: var(--grey);
+	margin-bottom: 32px;
+}
+
+.subTitle {
+	font-size: 15px;
+	color: var(--grey);
+	margin-bottom: 32px;
+}
+
+.items {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+.item {
+	font-size: 14px;
+	color: var(--grey);
+}
