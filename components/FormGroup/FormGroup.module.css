@@ -1,0 +1,45 @@
+.formGroup {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.label {
+	width: 100%;
+	display: block;
+	font-size: 14px;
+	color: #454545;
+	padding-left: 10px;
+	font-weight: normal;
+	white-space: nowrap;
+	text-transform: capitalize;
+	padding: 0.2em 0.6em 0.3em;
+}
+
+.input {
+	width: 100%;
+	outline: none;
+	color: #454545;
+	padding: 6px 12px;
+	margin-bottom: 10px;
+	background: #f9f9f9;
+	border: 1px solid #eee;
+	box-shadow: inset 0px 1px 2px 0px rgb(238 238 238);
+	-webkit-box-shadow: inset 1px 0px 2px 0px rgb(238 238 238);
+	-moz-box-shadow: inset 1px 0px 2px 0px rgba(238, 238, 238, 1);
+}
+
+.textarea {
+	width: 100%;
+	resize: none;
+	outline: none;
+	color: #454545;
+	padding: 6px 12px;
+	margin-bottom: 10px;
+	background: #f9f9f9;
+	border: 1px solid #eee;
+	box-shadow: inset 0px 1px 2px 0px rgb(238 238 238);
+	-webkit-box-shadow: inset 1px 0px 2px 0px rgb(238 238 238);
+	-moz-box-shadow: inset 1px 0px 2px 0px rgba(238, 238, 238, 1);
+}
