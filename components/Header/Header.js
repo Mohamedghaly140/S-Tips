@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import Image from "next/image";
 import styles from "./Header.module.css";
 import mobile from "../../assets/mobile.gif";
 import mainBanner from "../../assets/banner1.jpg";
@@ -16,12 +15,9 @@ const Header = ({ banner, title, description, showGif }) => {
 
 	return (
 		<header className={styles.header} ref={headerRef}>
-			<Image
-				layout="fill"
-				alt="banner"
-				placeholder="blur"
+			<img
 				src={banner || mainBanner}
-				className={styles.bannerImage}
+				className={`${styles.bannerImage} img-fluid`}
 			/>
 			<div className={styles.overlay} />
 			<div
@@ -37,9 +33,7 @@ const Header = ({ banner, title, description, showGif }) => {
 						get started now
 					</button> */}
 				</div>
-				{showGif && (
-					<Image width={580} height={380} src={mobile} alt="mobile" />
-				)}
+				{showGif && <img className="img-fluid" src={mobile} alt="mobile" />}
 			</div>
 		</header>
 	);

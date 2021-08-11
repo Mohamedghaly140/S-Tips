@@ -1,5 +1,5 @@
-import { OverlayTrigger, Tooltip, Image } from 'react-bootstrap';
-import styled from 'styled-components/macro';
+import { OverlayTrigger, Tooltip, Image } from "react-bootstrap";
+import styled from "styled-components/macro";
 
 const SocialIcon = styled.li`
 	transition: all 0.5s ease-in-out;
@@ -15,11 +15,11 @@ const SocialItem = ({ title, link, icon }) => {
 				href={link}
 				target="_blank"
 				rel="noopener noreferrer"
-				style={{ width: '42px' }}
+				style={{ width: "42px" }}
 				className="d-block"
 			>
 				<OverlayTrigger overlay={<Tooltip id="tooltip-top">{title}</Tooltip>}>
-					<Image src={icon} alt={title} fluid />
+					<img className="img-fluid" src={icon} alt={title} fluid />
 				</OverlayTrigger>
 			</a>
 		</SocialIcon>

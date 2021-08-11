@@ -9,7 +9,7 @@ const MissionCard = ({ imageUrl, title, children, black, height, grey }) => {
 				grey && styles.greyCard
 			}`}
 		>
-			<Image
+			<img
 				alt={title}
 				width={510}
 				src={imageUrl}

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useState, Fragment } from "react";
 import styles from "./OurSection.module.css";
 import platform from "../../assets/platform.jpg";
@@ -38,13 +37,9 @@ const OurSection = () => {
 					{section === 1 ? (
 						<Fragment>
 							<div className="col-md-3">
-								<Image
-									width={600}
-									height={800}
-									// layout="fill"
+								<img
 									src={platform}
-									placeholder="blur"
-									className={styles.image}
+									className={`${styles.image} img-fluid`}
 									alt="platform"
 								/>
 							</div>
@@ -64,13 +59,9 @@ const OurSection = () => {
 					) : (
 						<Fragment>
 							<div className="col-md-3">
-								<Image
-									width={600}
-									height={800}
-									// layout="fill"
+								<img
 									src={mobile}
-									placeholder="blur"
-									className={styles.image}
+									className={`${styles.image} img-fluid`}
 									alt="mobile"
 								/>
 							</div>

@@ -1,6 +1,5 @@
 import { useState, useEffect, Fragment } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import styles from "./Navbar.module.css";
 import NavItem from "../NavItem/NavItem";
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
@@ -38,9 +37,8 @@ const Navbar = props => {
 						<a
 							className={`${styles.brand} d-flex align-items-center justify-content-center`}
 						>
-							<Image
-								width={100}
-								height={45}
+							<img
+								className="img-fluid"
 								src={active ? logoBlack : logoWhite}
 								alt="s-tips"
 							/>

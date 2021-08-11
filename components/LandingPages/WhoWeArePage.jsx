@@ -12,7 +12,6 @@ import MissionCard from "../MissionCard/MissionCard";
 import bicycle from "../../assets/bicycle.jpg";
 import mission from "../../assets/mission.jpg";
 
-
 const WhoWeArePage = () => {
 	return (
 		<Fragment>
@@ -20,7 +19,7 @@ const WhoWeArePage = () => {
 				<div className="container py-5">
 					<div className="row py-5">
 						<div className="col-md-6">
-							<Image
+							<img
 								width={660}
 								height={900}
 								alt="Who We Are"
@@ -109,7 +108,12 @@ const WhoWeArePage = () => {
 							</MissionCard>
 						</div>
 						<div className="col-md-6 mt-5 mt-md-0">
-							<MissionCard title="Our Mission" imageUrl={mission} black height={300}>
+							<MissionCard
+								title="Our Mission"
+								imageUrl={mission}
+								black
+								height={300}
+							>
 								<p>
 									To empower users and manufacturers with a platform that
 									enhances the lifestyle, cuts costs, and maximizes efficiency
