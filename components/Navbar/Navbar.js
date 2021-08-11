@@ -56,6 +56,8 @@ const Navbar = props => {
 						<NavItem href="/about">About</NavItem>
 						<Dropdown active={active} />
 						<NavItem href="/customers">Customers</NavItem>
+						<NavItem href="/industrial">Industrial</NavItem>
+						<NavItem href="/real-estate">Real Estate</NavItem>
 						<NavItem href="/contact">Contact Us</NavItem>
 					</ul>
 				</div>
