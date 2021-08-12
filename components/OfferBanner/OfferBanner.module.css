@@ -1,54 +1,61 @@
 .offer {
-	height: 80vh;
-	position: relative;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-image: url("../../assets/partners.jpg");
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 32px;
+  height: 80vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../../assets/partners.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 .overlay {
-	inset: 0;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	background-color: rgba(0, 0, 0, 0.7);
-	display: flex;
-	text-align: center;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title {
-	font-size: 18px;
-	color: var(--yellow);
+  font-size: 18px;
+  color: var(--yellow);
 }
 
 .subTitle {
-	max-width: 85%;
-	font-size: 35px;
-	color: var(--white);
-	margin-block: 28px;
+  max-width: 85%;
+  font-size: 35px;
+  color: var(--white);
+  margin-block: 28px;
 }
-
+@media (max-width: 700) {
+  .title {
+    font-size: 14px;
+  }
+  .subTitle {
+    font-size: 16px;
+  }
+}
 .readMore {
-	border: none;
-	outline: none;
-	margin-top: 16px;
-	padding: 10px 30px;
-	border-radius: 5px;
-	color: var(--white);
-	text-transform: uppercase;
-	background-color: var(--yellow);
-	transition: all 0.3s ease-in-out;
+  border: none;
+  outline: none;
+  margin-top: 16px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: var(--white);
+  text-transform: uppercase;
+  background-color: var(--yellow);
+  transition: all 0.3s ease-in-out;
 }
 
 .readMore:hover {
-	color: var(--yellow);
-	background-color: var(--white);
+  color: var(--yellow);
+  background-color: var(--white);
 }
