@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./Footer.module.css";
 import { RiArrowDropRightLine } from "react-icons/ri";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 // import Logo from '../Logo/Logo';
 // import Social from "../Social/Social";
@@ -54,30 +54,26 @@ const Footer = props => {
 					<div className="col-md-4">
 						<h5 className={styles.title}>Contact Us</h5>
 						<h6 className={styles.subTitle}>Address:</h6>
-						<p>No.28 - 63739 street lorem ipsum, ipsum City, Country</p>
+						<p>Block 92 central area, Dumyat al Jadidah, Damietta Governorate, Egypt 34511</p>
 						<ul className={styles.contactList}>
 							<li>
 								<h6 className={styles.subTitle}>Phone:</h6>
-								<p>+ 1 (234) 567 8901</p>
+								<p>+201000040833</p>
 							</li>
 							<li>
 								<h6 className={styles.subTitle}>Email:</h6>
-								<p>support@yoursite.com</p>
-							</li>
-							<li>
-								<h6 className={styles.subTitle}>Fax:</h6>
-								<p>+ 1 (234) 567 8901</p>
+								<p>info@s-tips.tech</p>
 							</li>
 						</ul>
 						<ul className={styles.socialLinks}>
-							<SocialItem link="#">
+							<SocialItem link="https://www.facebook.com/STIPS.Egypt">
 								<FaFacebookF />
 							</SocialItem>
-							<SocialItem link="#">
+							{/* <SocialItem link="#">
 								<FaTwitter />
-							</SocialItem>
-							<SocialItem link="#">
-								<FaLinkedinIn />
+							</SocialItem> */}
+							<SocialItem link="https://www.instagram.com/stips.egypt/">
+								<FaInstagram />
 							</SocialItem>
 						</ul>
 					</div>
