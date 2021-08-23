@@ -1,0 +1,30 @@
+{
+	"slides": [
+		{
+			"imageUrl": "/laptop.jpg",
+			"title": "OUR REAL ESTATE PARTNER",
+			"description": "Sell more homes and set yourself apart from the competition by offering your clients technology that provides them with home safety and security, energy-saving, and comfortable living"
+		},
+		{
+			"imageUrl": "/laptop.jpg",
+			"title": "OUR REAL ESTATE PARTNER",
+			"description": "Sell more homes and set yourself apart from the competition by offering your clients technology that provides them with home safety and security, energy-saving, and comfortable living"
+		}
+	],
+	"offer": {
+		"title": "JOIN US",
+		"subTitle": "We are dedicated to developing complete home automation systems and creative smart products, providing users with a more convenient, comfortable, and secure smart life"
+	},
+	"list": {
+		"title": "Our Mobile Application",
+		"subTitle": "Everything is now connected, controlled, and monitored through one mobile application for maximum efficiency and the easiest user experience.",
+		"description": "Makes best of smart home experience",
+		"list": [
+			{ "title": "Intuitive UX" },
+			{ "title": "Online & Offline" },
+			{ "title": "Functionality" },
+			{ "title": "Improved" },
+			{ "title": "Customer Support" }
+		]
+	}
+}

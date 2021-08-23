@@ -1,0 +1,28 @@
+{
+	"slides": [
+		{
+			"imageUrl": "/laptop.jpg",
+			"title": "INDUSTRIAL PARTNER Become a partner of S-tips",
+			"description": "We are dedicated to developing complete home automation systems and creative smart products, providing users with a more convenient, comfortable, and secure smart life"
+		},
+		{
+			"imageUrl": "/laptop.jpg",
+			"title": "INDUSTRIAL PARTNER Become a partner of S-tips",
+			"description": "We are dedicated to developing complete home automation systems and creative smart products, providing users with a more convenient, comfortable, and secure smart life"
+		}
+	],
+	"offer": {
+		"title": "LOOKING FORWARD TO COOPERATING WITH YOU",
+		"subTitle": "We are dedicated to developing complete home automation systems and creative smart products, providing users with a more convenient, comfortable, and secure smart life"
+	},
+	"list": {
+		"title": "Our platform",
+		"subTitle": "Continuous integration with third-party products and devices to provide a wide range of functionality, new marketing channels and a massive competitive advantage",
+		"description": "Powerful cloud platform connects all together",
+		"list": [
+			{ "title": "Easy integration for third-party products and devices." },
+			{ "title": "Register, connect, and control devices." },
+			{ "title": "All devices on one platform Connect" }
+		]
+	}
+}

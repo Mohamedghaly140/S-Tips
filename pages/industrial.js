@@ -1,45 +1,14 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import laptop from "../assets/laptop.jpg";
-import Slider from "../components/Slider/Slider";
-import PowerfulSolutions from "../components/PowerfulSolutions/PowerfulSolutions";
-import OfferBanner from "../components/OfferBanner/OfferBanner";
 import List from "../components/List/List";
+import { getData } from "../helper/getData";
+import Slider from "../components/Slider/Slider";
+import OfferBanner from "../components/OfferBanner/OfferBanner";
+import PowerfulSolutions from "../components/PowerfulSolutions/PowerfulSolutions";
 
-const slides = [
-	{
-		imageUrl: laptop,
-		title: "INDUSTRIAL PARTNER Become a partner of S-tips",
-		description:
-			"We are dedicated to developing complete home automation systems and creative smart products, providing users with a more convenient, comfortable, and secure smart life",
-	},
-	{
-		imageUrl: laptop,
-		title: "INDUSTRIAL PARTNER Become a partner of S-tips",
-		description:
-			"We are dedicated to developing complete home automation systems and creative smart products, providing users with a more convenient, comfortable, and secure smart life",
-	},
-];
+export default function Industrial(props) {
+	const { slides, offer, list } = props;
 
-const offer = {
-	title: "LOOKING FORWARD TO COOPERATING WITH YOU",
-	subTitle:
-		"We are dedicated to developing complete home automation systems and creative smart products, providing users with a more convenient, comfortable, and secure smart life",
-};
-
-const list = {
-	title: "Our platform",
-	subTitle:
-		"Continuous integration with third-party products and devices to provide a wide range of functionality, new marketing channels and a massive competitive advantage",
-	description: "Powerful cloud platform connects all together",
-	list: [
-		{ title: "Easy integration for third-party products and devices." },
-		{ title: "Register, connect, and control devices." },
-		{ title: "All devices on one platform Connect" },
-	],
-};
-
-const Industrial = () => {
 	return (
 		<Fragment>
 			<Head>
@@ -56,6 +25,16 @@ const Industrial = () => {
 			/>
 		</Fragment>
 	);
-};
+}
 
-export default Industrial;
+export async function getStaticProps() {
+	const data = await getData("industrial");
+
+	return {
+		props: {
+			slides: data.slides,
+			offer: data.offer,
+			list: data.list,
+		},
+	};
+}

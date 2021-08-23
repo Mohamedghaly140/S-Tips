@@ -5,7 +5,7 @@ const SlideItem = ({ imageUrl, title, description, showBtn, center }) => {
 	return (
 		<div className={styles.slide}>
 			<div className={styles.overlay} />
-			<Image src={imageUrl} layout="fill" placeholder="blur" alt={title} />
+			<Image src={imageUrl} layout="fill" alt={title} />
 			<div className={`${styles.caption} container ${center && "text-center"}`}>
 				<h1 className={styles.title}>{title}</h1>
 				<p className={styles.slogan}>{description}</p>
