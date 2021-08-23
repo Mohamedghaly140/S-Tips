@@ -13,6 +13,10 @@ export default function Industrial(props) {
 		<Fragment>
 			<Head>
 				<title>S-Tips | Industrial</title>
+				<meta
+					name="description"
+					content="We are dedicated to developing complete home automation systems and creative smart products, providing users with a more convenient, comfortable, and secure smart life"
+				/>
 			</Head>
 			<Slider slides={slides} />
 			<PowerfulSolutions />

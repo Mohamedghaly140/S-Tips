@@ -13,6 +13,10 @@ export default function RealEstate(props) {
 		<Fragment>
 			<Head>
 				<title>S-Tips | Real Estate</title>
+				<meta
+					name="description"
+					content="Sell more homes and set yourself apart from the competition by offering your clients technology that provides them with home safety and security, energy-saving, and comfortable living"
+				/>
 			</Head>
 			<Slider slides={slides} />
 			<PowerfulSolutions />
