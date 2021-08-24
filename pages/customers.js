@@ -1,9 +1,10 @@
 import Head from "next/head";
 import { Fragment } from "react";
 import laptop from "../assets/laptop.jpg";
+import Slider from "../components/Slider/Slider";
+import Products from "../components/Products/Products";
 import OurValues from "../components/OurValues/OurValues";
 import PowerfulSolutions from "../components/PowerfulSolutions/PowerfulSolutions";
-import Slider from "../components/Slider/Slider";
 
 const slides = [
 	{
@@ -20,7 +21,7 @@ const slides = [
 	},
 ];
 
-const customers = () => {
+const Customers = () => {
 	return (
 		<Fragment>
 			<Head>
@@ -29,8 +30,9 @@ const customers = () => {
 			<Slider slides={slides} />
 			<PowerfulSolutions />
 			<OurValues />
+			<Products />
 		</Fragment>
 	);
 };
 
-export default customers;
+export default Customers;
