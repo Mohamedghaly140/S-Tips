@@ -3,11 +3,12 @@ import { Fragment } from "react";
 import List from "../components/List/List";
 import { getData } from "../helper/getData";
 import Slider from "../components/Slider/Slider";
+import Values from "../components/Values/Values";
 import OfferBanner from "../components/OfferBanner/OfferBanner";
 import PowerfulSolutions from "../components/PowerfulSolutions/PowerfulSolutions";
 
 export default function Industrial(props) {
-	const { slides, offer, list } = props;
+	const { slides, offer, list, values } = props;
 
 	return (
 		<Fragment>
@@ -27,6 +28,7 @@ export default function Industrial(props) {
 				subTitle={list.subTitle}
 				description={list.description}
 			/>
+			<Values title={values.title} values={values.values} />
 		</Fragment>
 	);
 }
@@ -39,6 +41,7 @@ export async function getStaticProps() {
 			slides: data.slides,
 			offer: data.offer,
 			list: data.list,
+			values: data.values,
 		},
 	};
 }

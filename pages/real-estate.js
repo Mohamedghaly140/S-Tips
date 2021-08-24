@@ -2,12 +2,13 @@ import Head from "next/head";
 import { Fragment } from "react";
 import List from "../components/List/List";
 import { getData } from "../helper/getData";
+import Values from "../components/Values/Values";
 import Slider from "../components/Slider/Slider";
 import OfferBanner from "../components/OfferBanner/OfferBanner";
 import PowerfulSolutions from "../components/PowerfulSolutions/PowerfulSolutions";
 
 export default function RealEstate(props) {
-	const { slides, offer, list } = props;
+	const { slides, offer, list, values } = props;
 
 	return (
 		<Fragment>
@@ -27,6 +28,7 @@ export default function RealEstate(props) {
 				subTitle={list.subTitle}
 				description={list.description}
 			/>
+			<Values title={values.title} values={values.values} />
 		</Fragment>
 	);
 }
@@ -39,6 +41,7 @@ export async function getStaticProps() {
 			slides: data.slides,
 			offer: data.offer,
 			list: data.list,
+			values: data.values,
 		},
 	};
 }

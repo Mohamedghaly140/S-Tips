@@ -1,5 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./Footer.module.css";
+import logoWhite from "../../assets/logo_white.png";
 import { RiArrowDropRightLine } from "react-icons/ri";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
@@ -31,14 +33,17 @@ const Footer = props => {
 			<div className="container py-5">
 				<div className="row py-5">
 					<div className="col-md-4">
-						<h5 className={styles.title}>S-Tips</h5>
+						<h5 className={styles.title}>
+							<Image width={100} height={45} src={logoWhite} alt="s-tips" />
+						</h5>
 						<p>
-						S-tips is a leading company in the field of smart home automation. 
-						with a professional industrial chain, which has research and development, 
-						production, services, and support all in one. We design, supply, 
-						and install control systems that bring everything together under a single, 
-						simple-to-use interface, to make it easy to obtain luxury, comfort, and efficiency 
-						for homes from anywhere efficiently.
+							S-tips is a leading company in the field of smart home automation.
+							with a professional industrial chain, which has research and
+							development, production, services, and support all in one. We
+							design, supply, and install control systems that bring everything
+							together under a single, simple-to-use interface, to make it easy
+							to obtain luxury, comfort, and efficiency for homes from anywhere
+							efficiently.
 						</p>
 						<p></p>
 					</div>
@@ -54,11 +59,14 @@ const Footer = props => {
 					<div className="col-md-4">
 						<h5 className={styles.title}>Contact Us</h5>
 						<h6 className={styles.subTitle}>Address:</h6>
-						<p>Block 92 central area, Dumyat al Jadidah, Damietta Governorate, Egypt 34511</p>
+						<p>
+							Block 92 central area, Dumyat al Jadidah, Damietta Governorate,
+							Egypt 34511
+						</p>
 						<ul className={styles.contactList}>
 							<li>
 								<h6 className={styles.subTitle}>Phone:</h6>
-								<p>+201000040833</p>
+								<p>+2 0100 004 0833</p>
 							</li>
 							<li>
 								<h6 className={styles.subTitle}>Email:</h6>

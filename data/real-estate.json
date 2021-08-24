@@ -26,5 +26,41 @@
 			{ "title": "Improved" },
 			{ "title": "Customer Support" }
 		]
+	},
+	"values": {
+		"title": "We offer a wide range of values to improve your business",
+		"values": [
+			{
+				"id": 1,
+				"icon": "GiProfit",
+				"title": "increase profit and sales",
+				"description": "Our product lines offer stylish and discreet security and control systems and accompanying peripherals which integrate easily with any interior design. Moreover, with our wireless solutions, residents can easily add products as needed with a non-intrusive, wireless installation, maximizing the add-on sales potential for partners at minimal costs."
+			},
+			{
+				"id": 2,
+				"title": "Added value to your properties",
+				"description": "Our solutions require minimal operational investment by using wireless products. Installation is extremely short and simple, making it a viable way of generating additional profits."
+			},
+			{
+				"id": 3,
+				"title": "competitive advantage",
+				"description": "offering your clients technology that provides them with home safety and security, energy-saving, and comfortable living."
+			},
+			{
+				"id": 4,
+				"title": "Certified installers",
+				"description": "Ous S-tips certified installers have been trained for home technology products"
+			},
+			{
+				"id": 5,
+				"title": "On-Time installations",
+				"description": "On-Time installations that accommodate your schedule."
+			},
+			{
+				"id": 6,
+				"title": "Expert support",
+				"description": "We have highly-trained sales consultants and installation teams"
+			}
+		]
 	}
 }

@@ -24,5 +24,40 @@
 			{ "title": "Register, connect, and control devices." },
 			{ "title": "All devices on one platform Connect" }
 		]
+	},
+	"values": {
+		"title": "Values we offer to improve your business",
+		"values": [
+			{
+				"id": 1,
+				"title": "Mobile application",
+				"description": "all your devices are in the same mobile app, You can control and get notifications from it."
+			},
+			{
+				"id": 2,
+				"title": "More effective installation",
+				"description": "On-Time installations that accommodate your schedule."
+			},
+			{
+				"id": 3,
+				"title": "Better support",
+				"description": "We have a highly technical team 24/7"
+			},
+			{
+				"id": 4,
+				"title": "Higher profit and sales",
+				"description": "all of your devices will be in the same mobile application, so that will add value to your units maximizing the add-on sales potential for your customers at minimal costs."
+			},
+			{
+				"id": 5,
+				"title": "Added value to units",
+				"description": "Our solutions require minimal operational investment by using wireless products. Installation is extremely short and simple, making it a viable way of generating additional profits."
+			},
+			{
+				"id": 6,
+				"title": "competitive advantage",
+				"description": "offering your clients technology that provides them with home safety and security, energy-saving, and comfortable living."
+			}
+		]
 	}
 }
