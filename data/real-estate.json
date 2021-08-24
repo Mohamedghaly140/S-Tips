@@ -20,11 +20,11 @@
 		"subTitle": "Everything is now connected, controlled, and monitored through one mobile application for maximum efficiency and the easiest user experience.",
 		"description": "Makes best of smart home experience",
 		"list": [
-			{ "title": "Intuitive UX" },
-			{ "title": "Online & Offline" },
-			{ "title": "Functionality" },
-			{ "title": "Improved" },
-			{ "title": "Customer Support" }
+			{ "title": "Intuitive UX", "delay": 0 },
+			{ "title": "Online & Offline", "delay": 250 },
+			{ "title": "Functionality", "delay": 500 },
+			{ "title": "Improved", "delay": 750 },
+			{ "title": "Customer Support", "delay": 1000 }
 		]
 	},
 	"values": {

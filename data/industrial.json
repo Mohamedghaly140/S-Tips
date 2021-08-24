@@ -20,9 +20,12 @@
 		"subTitle": "Continuous integration with third-party products and devices to provide a wide range of functionality, new marketing channels and a massive competitive advantage",
 		"description": "Powerful cloud platform connects all together",
 		"list": [
-			{ "title": "Easy integration for third-party products and devices." },
-			{ "title": "Register, connect, and control devices." },
-			{ "title": "All devices on one platform Connect" }
+			{
+				"title": "Easy integration for third-party products and devices.",
+				"delay": 0
+			},
+			{ "title": "Register, connect, and control devices.", "delay": 250 },
+			{ "title": "All devices on one platform Connect", "delay": 500 }
 		]
 	},
 	"values": {
